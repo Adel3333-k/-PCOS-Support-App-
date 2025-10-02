@@ -1,0 +1,17 @@
+[package]
+name = "pcos_support_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# For UI (choose one)
+dioxus = { version = "0.4", features = ["desktop"] }
+
+# For database
+rusqlite = "0.31"
+
+# For notifications (desktop)
+notify-rust = "4.9.0"
+
+# For async tasks
+tokio = { version = "1", features = ["full"] }
