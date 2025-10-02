@@ -1,0 +1,9 @@
+pcos_support_app/
+│
+├── Cargo.toml
+├── src/
+│   ├── main.rs          # App entry point
+│   ├── ui.rs            # UI logic (using Dioxus or Tauri)
+│   ├── models.rs        # Data structures (cycle, symptoms, etc.)
+│   ├── storage.rs       # Database or local storage
+│   └── services.rs      # Reminders, notifications, helpers
